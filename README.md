@@ -29,7 +29,7 @@ TODO
 ### Explorer
 
 Done:
-
 * sendTransfer
+
 TODO
 * ...
