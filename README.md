@@ -7,7 +7,7 @@
 ```
 IoTeXClient client = new IoTeXClient("http://localhost:14004", "http://localhost:4004/api/wallet");
 
-client.sendTransfer(PRIVATE_KEY, CHAIN_ID, RECIPIENT, CHAIN_ID);
+client.sendTransfer(PRIVATE_KEY, CHAIN_ID, RECIPIENT, AMOUNT);
 ```
 
 ## Test JUnit
@@ -18,7 +18,7 @@ mvn clean test
 
 ## Roadmap
 
-(bold is completed task)
+(bold task is completed)
 
 ### Explorer
 
